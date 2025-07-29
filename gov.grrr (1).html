@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+ <meta charset="UTF-8">
+  <title>Επαλήθευση Εγγράφου</title>
+  <style>
+    .ds-header {
+      background-color: #003366;
+      padding: 10px 20px;
+      color: white;
+    }
+    .ds-header__content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .ds-header__section {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .ds-header__link {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+    .ds-header__logo {
+      height: 40px;
+    }
+    .ds-header__title {
+      color: white;
+      font-size: 1.2em;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .ds-header__title:hover {
+      text-decoration: underline;
+    }
+  </style>
+<header class="ds-header" role="banner" data-module="ds-header"><div class="ds-header__content"><div class="ds-header__section"><a class="ds-header__link" href="https://www.gov.gr/"><img src="https://www.gov.gr/gov_gr-thumb-1200.png" class="ds-header__logo" alt="gov.gr logo"></a><a class="ds-header__title" href="/validate/govgr">Επαλήθευση εγγράφου</a></div></div></header>
+  <meta charset="UTF-8">
+  <title>Ακαδημαϊκή Ταυτότητα</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #fff;
+    }
+    h2 {
+      color: #333;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .info, .meta {
+      width: 48%;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    td {
+      padding: 8px;
+      border-bottom: 1px solid #ccc;
+    }
+    .photo {
+      margin-top: 10px;
+    }
+    .photo img {
+      width: 120px;
+      border-radius: 4px;
+    }
+    .download-button {
+      margin-top: 20px;
+      padding: 10px 15px;
+      background-color: #006c3e;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h2>Στοιχεία Ακαδημαϊκής Ταυτότητας</h2>
+  <div class="container">
+    <div class="info">
+      <table>
+        <tr><td>Κωδικός ακαδημαϊκής ταυτότητας</td><td>237025204462</td></tr>
+        <tr><td>Όνομα (ελληνικά)</td><td>ΝΙΚΟΛΑΟΣ</td></tr>
+        <tr><td>Επώνυμο (ελληνικά)</td><td>ΡΗΓΑΣ</td></tr>
+        <tr><td>Όνομα (λατινικά)</td><td>NIKOLAOS</td></tr>
+        <tr><td>Επώνυμο (λατινικά)</td><td>RIGAS</td></tr>
+        <tr><td>Ιδιότητα Δικαιούχου</td><td>ΜΕΤΑΠΤΥΧΙΑΚΟΣ</td></tr>
+        <tr><td>Τμήμα/Ίδρυμα</td><td>ΙΑΤΡΙΚΗΣ (ΠΑΝΕΠΙΣΤΗΜΙΟ ΙΩΑΝΝΙΝΩΝ)</td></tr>
+        <tr><td>Έδρα Τμήματος</td><td>ΙΩΑΝΝΙΝΩΝ - ΙΩΑΝΝΙΝΩΝ</td></tr>
+        <tr><td>Αριθμός Μητρώου</td><td>1514</td></tr>
+        <tr><td>Τόπος μόνιμης κατοικίας</td><td>ΠΕΤΡΟΥΠΟΛΕΩΣ - ΑΤΤΙΚΗΣ</td></tr>
+        <tr><td>Φοιτητής Erasmus</td><td>OXI</td></tr>
+        <tr><td>Έτος Εισαγωγής</td><td>2021</td></tr>
+        <tr><td>Ημερομηνία Λήξης ΔΕΕ</td><td>31/09/2026</td></tr>
+      </table>
+    </div>
+    <div class="meta">
+      <p><strong>Κωδικός επαλήθευσης:</strong><br>RAIqkbEuyWRPbWzcvqKkJA</p>
+      <p><strong>Κατάσταση:</strong> Το έγγραφο εκδόθηκε</p>
+      <p><strong>Πρότυπο:</strong> ACADEMIC-ID</p>
+      <p><strong>Ημερομηνία έκδοσης:</strong><br>28/07/2025 09:32:09</p>
+      <p><img src="https://api.qrserver.com/v1/create-qr-code/?data=RAIqkbEuyWRPbWzcvqKkJA&size=100x100" alt="QR Code"></p>
+      <button class="download-button">📄 Αποθήκευση</button>
+    </div>
+  </div>
+</body>
+</html>
